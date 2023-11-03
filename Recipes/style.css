@@ -1,0 +1,118 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.container{
+    height: 195vh;
+    width:100vw;
+    overflow-x: none;
+    background-color: #FAD961;
+background-image: linear-gradient(90deg, #FAD961 0%, #f7bf1c 100%);
+}
+.navContainer{
+    width:100vw;
+    background-color: #FFE53B;
+background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
+    min-height: 85px;
+    align-items: center;
+}
+nav{
+    width: 100%;
+    
+}
+#navlist{
+    width:100%;
+   padding: 15px;
+    list-style: none;
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#navdesign{
+    font-size: 2.5 rem;
+    color: black;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#navitems{
+    display: flex;
+    gap:30px;
+}
+.footerBox{
+    background-color: #FFE53B;
+    background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
+    width: 100%;
+    text-align: center;
+    min-height: 30px;
+}
+.footerBox p{
+    color: black;
+    font-size: 2rem;
+}
+.contentBox{
+    width: 70%;
+    margin: auto;
+   box-shadow: 3px 3px 30px black;
+    /* background-color: whitesmoke; */
+    background-color: #FFE53B;
+background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
+
+    display: flex;
+    flex-direction: column;
+    gap:80px;
+    padding: 3rem;
+
+}
+.items{
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+}
+.rightBox img{
+    height: 300px;
+    border-radius: 20px;
+    transition: all 0.6s linear 0s;
+}
+.rightBox img:hover{
+    transform: scale(1.1);
+}
+
+.leftBox{
+    display: flex;
+    flex-direction: column;
+}
+.leftBox h2{
+    font-size: 2rem;
+}
+.ingBox{
+    font-size: 1.2rem;
+}
+.recipeBox{
+    font-size: 1.2rem;
+}
+/* .rightBox .overlay{
+    position :absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    background-color: rgb(97, 95, 95);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+
+}
+.rightBox:hover.overlay{
+    opacity: 1;
+}
+.rightBox .overlay span{
+    color:darkblue;
+    font-size: 1.2rem;
+} */
+
